@@ -1,0 +1,88 @@
+body {
+    /* background-color: black; */
+    background-color: #d1b3cb;
+}
+
+.calculatrice {
+    
+    max-width: 700px;
+    margin: 45px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.bouttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px auto;
+}
+
+button {
+    background-color: rgb(83, 51, 237);
+    color: #ffffff;
+    font-size: 22px;
+    margin: 5px;
+    padding: 15px 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.9);
+    filter: brightness(90%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.14); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.14);
+     */
+    /* -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
+
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#bt input {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+    padding: 25px 15px;
+    color: black;
+    font-size: 40px;
+    border: none;
+    /* border: 0.5px dashed black; */
+    /* border-radius: 12px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+
+#equal {
+    background: rgb(250, 165, 9);
+    color: white;
+    grid-column: 3 / span 2;
+}
+
+#clear {
+    background-color: rgb(221, 97, 97);
+    color: white;
+}
+
+#remove {
+    background-color: rgb(221, 97, 97);
+    color: white;
+}
